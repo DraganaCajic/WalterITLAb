@@ -1,0 +1,15 @@
+C:\Users\Dragana\source\repos\Zadatak1\Zadatak1\obj\Debug\Zadatak1.csprojResolveAssemblyReference.cache
+C:\Users\Dragana\source\repos\Zadatak1\Zadatak1\obj\Debug\Zadatak1.Form1.resources
+C:\Users\Dragana\source\repos\Zadatak1\Zadatak1\obj\Debug\Zadatak1.Properties.Resources.resources
+C:\Users\Dragana\source\repos\Zadatak1\Zadatak1\obj\Debug\Zadatak1.csproj.GenerateResource.Cache
+C:\Users\Dragana\source\repos\Zadatak1\Zadatak1\obj\Debug\Zadatak1.csproj.CoreCompileInputs.cache
+C:\Users\Dragana\source\repos\Zadatak1\Zadatak1\bin\Debug\Zadatak1.exe.config
+C:\Users\Dragana\source\repos\Zadatak1\Zadatak1\bin\Debug\Zadatak1.exe
+C:\Users\Dragana\source\repos\Zadatak1\Zadatak1\bin\Debug\Zadatak1.pdb
+C:\Users\Dragana\source\repos\Zadatak1\Zadatak1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dragana\source\repos\Zadatak1\Zadatak1\bin\Debug\RestSharp.dll
+C:\Users\Dragana\source\repos\Zadatak1\Zadatak1\bin\Debug\System.ValueTuple.dll
+C:\Users\Dragana\source\repos\Zadatak1\Zadatak1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dragana\source\repos\Zadatak1\Zadatak1\bin\Debug\System.ValueTuple.xml
+C:\Users\Dragana\source\repos\Zadatak1\Zadatak1\obj\Debug\Zadatak1.exe
+C:\Users\Dragana\source\repos\Zadatak1\Zadatak1\obj\Debug\Zadatak1.pdb
