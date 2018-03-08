@@ -35,21 +35,21 @@ namespace Zadatak1
             rtbPlot.Text = "";
             RestClient restClient = new RestClient($"http://www.omdbapi.com/?apikey=98f50a84&");
             RestRequest restRequest = new RestRequest(Method.GET);
-            restRequest.AddParameter("t", tbName.Text.ToString());
-            //RestResponse<Person> response2 = client.Execute<Person>(request);
-            List<Movie> movie;
+            restRequest.AddParameter("s", tbName.Text.ToString());
+
+            Movie1 movie = new Movie1(); ;
             RestSharp.Deserializers.JsonDeserializer deserial = new RestSharp.Deserializers.JsonDeserializer();
             var response = restClient.Execute(restRequest);
-            movie = deserial.Deserialize<List<Movie>>(response);
+            movie = deserial.Deserialize<Movie1>(response);
             string data = response.Content;
             File.WriteAllText(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\tmpFile.txt", data);
 
 
 
-            foreach (var item in movie)
+            foreach (var item in movie.Search)
             {
                 
-                if (item.Response == "True")
+                if (movie.Response == "True")
                 {
                     lbMovie.Items.Add(item.Title.ToString());
                 }
@@ -66,9 +66,10 @@ namespace Zadatak1
 
         private void lbMovie_SelectedValueChanged(object sender, EventArgs e)
         {
+            
             RestClient restClient = new RestClient($"http://www.omdbapi.com/?apikey=98f50a84&");
             RestRequest restRequest = new RestRequest(Method.GET);
-            restRequest.AddParameter("t", lbMovie.SelectedItem.ToString());
+            restRequest.AddParameter("t", lbMovie.SelectedItem);
            
             var result = restClient.Execute(restRequest);
             RestSharp.Deserializers.JsonDeserializer deserial = new RestSharp.Deserializers.JsonDeserializer();
